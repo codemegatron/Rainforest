@@ -18,7 +18,15 @@
    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
    MA 02110-1301, USA.
    
-   python -m SimpleHTTPServer
+   To run the local server, change directory to the same dir as the html
+   cd ..
+   cd <repos>
+   > python -m SimpleHTTPServer
+   
+   To push code to the internet
+   > git add .
+   > git commit -m 'some comment that describes the change'
+   > git push
    
 -->
 
@@ -27,12 +35,14 @@
 
 <head>
 	<title>Computing Club Elmbridge</title>
+	<link type='text/css' rel='stylesheet' href='stylesheet1.css'/>
 </head>
 
 <body>
 	<article>
 		<section>
 			<p style='font-size:55px'>Computing Club</p>
+			<p class='text'>Come to computing club!</p>
 		</section>
 	</article>
 </body>
